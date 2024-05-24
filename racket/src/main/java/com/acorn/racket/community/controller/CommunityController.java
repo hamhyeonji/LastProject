@@ -1,5 +1,18 @@
 package com.acorn.racket.community.controller;
 
+<<<<<<< main
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class CommunityController {
+
+	@GetMapping("/test")
+	public String writeview() {
+		
+		return "CommunityWriter";
+=======
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,5 +38,6 @@ public class CommunityController {
 		System.out.println(list);
 		model.addAttribute("post",list );
 		return "CommunityDetail";
+>>>>>>> main
 	}
 }
