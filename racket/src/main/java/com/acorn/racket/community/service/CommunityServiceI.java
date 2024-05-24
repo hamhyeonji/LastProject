@@ -1,5 +1,10 @@
 package com.acorn.racket.community.service;
 
-public interface CommunityServiceI {
+import java.util.List;
 
+import com.acorn.racket.community.controller.CommunityDetailDTO;
+
+public interface CommunityServiceI {
+	
+	List<CommunityDetailDTO> detailview();
 }

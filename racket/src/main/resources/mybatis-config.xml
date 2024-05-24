@@ -5,7 +5,11 @@
 <configuration>
 	<typeAliases>
 		<typeAlias alias="UserDTO" type="com.acorn.racket.login.domain.UserLoginDTO"/>
+<<<<<<< jkw
+		<typeAlias alias="CommunityDetailDTO" type="com.acorn.racket.community.controller.CommunityDetailDTO"/>
+=======
 		<typeAlias alias="Club" type="com.acorn.racket.match.domain.Club" />  <!--DTO 파일명을 간결한 이름(alias)으로 지정 -->
+>>>>>>> main
 	</typeAliases>
 </configuration>
 
